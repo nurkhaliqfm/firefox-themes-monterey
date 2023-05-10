@@ -18,7 +18,8 @@
 }
 
 #TabsToolbar {
-  border-bottom: 1px solid var(--gnome-toolbar-border-color) !important;
+  border-bottom: inset;
+  /* border-bottom: 1px solid var(--gnome-toolbar-border-color) !important; */
 }
 
 findbar {
@@ -48,8 +49,10 @@ findbar:-moz-window-inactive {
 }
 
 #titlebar {
+  flex-direction: column;
   min-height: 0 !important;
-  max-height: 36px !important;
+  /* max-height: 52px !important; */
+  margin: 10px 0 !important;
 }
 
 #nav-bar {

@@ -52,6 +52,7 @@ findbar:-moz-window-inactive,
 }
 
 #TabsToolbar {
+  border-bottom: inset;
   margin-top: 82px !important;
   padding: 0 !important;
   margin-bottom: 6px !important;
