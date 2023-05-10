@@ -37,6 +37,7 @@ findbar:-moz-window-inactive {
 
 /* Toolbox colors */
 #navigator-toolbox {
+  flex-direction: column-reverse;
   border: 0 !important;
   background: none !important;
 }
@@ -47,7 +48,6 @@ findbar:-moz-window-inactive {
 }
 
 #titlebar {
-  flex-direction: column-reverse;
   min-height: 0 !important;
   max-height: 36px !important;
 }

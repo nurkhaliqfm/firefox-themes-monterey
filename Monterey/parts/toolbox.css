@@ -36,6 +36,7 @@ findbar:-moz-window-inactive,
 
 /* Toolbox colors */
 #navigator-toolbox {
+  flex-direction: column-reverse;
   border: none !important;
   background: none !important;
 }
@@ -46,13 +47,12 @@ findbar:-moz-window-inactive,
 }
 
 #titlebar {
-  flex-direction: column-reverse;
-  min-height: 0 !important;
+  /* min-height: 0 !important; */
   max-height: 42px !important;
 }
 
 #TabsToolbar {
-  margin-top: -42px !important;
+  margin-top: 82px !important;
   padding: 0 !important;
   margin-bottom: 6px !important;
   background: none !important;
