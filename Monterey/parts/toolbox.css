@@ -46,12 +46,13 @@ findbar:-moz-window-inactive,
 }
 
 #titlebar {
+  flex-direction: column-reverse;
   min-height: 0 !important;
   max-height: 42px !important;
 }
 
 #TabsToolbar {
-  margin-top: 0px !important;
+  margin-top: -42px !important;
   padding: 0 !important;
   margin-bottom: 6px !important;
   background: none !important;

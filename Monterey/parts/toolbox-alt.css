@@ -47,6 +47,7 @@ findbar:-moz-window-inactive {
 }
 
 #titlebar {
+  flex-direction: column-reverse;
   min-height: 0 !important;
   max-height: 36px !important;
 }
